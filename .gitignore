@@ -1,0 +1,9 @@
+.venv/
+.idea/
+.vscode/
+.idea
+*.pyc
+*.pyo
+*.pyd
+*.nc
+*.png

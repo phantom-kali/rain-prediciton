@@ -1,9 +1,33 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
 .venv/
+
+# IDE files
 .idea/
 .vscode/
-.idea
-*.pyc
-*.pyo
-*.pyd
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
 *.nc
+processed_rainfall_data.csv
+
+# Output directories
+outputs/
 *.png
